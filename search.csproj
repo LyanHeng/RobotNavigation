@@ -5,4 +5,192 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Update="GameInfo.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ContentWithTargetPath Include="splashkit_dependencies\libcivetweb.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libcivetweb.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libcivetweb.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\libcurl.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libcurl.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libcurl.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\libeay32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libeay32.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libeay32.dll" />
+    
+    <ContentWithTargetPath Include="splashkit_dependencies\libFLAC-8.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libFLAC-8.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libFLAC-8.dll" />
+    
+    <ContentWithTargetPath Include="splashkit_dependencies\libformw6.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libformw6.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libformw6.dll" />
+    
+    <ContentWithTargetPath Include="splashkit_dependencies\libfreetype-6.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libfreetype-6.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libfreetype-6.dll" />
+    
+    <ContentWithTargetPath Include="splashkit_dependencies\libjpeg-9.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libjpeg-9.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libjpeg-9.dll" />
+    
+    <ContentWithTargetPath Include="splashkit_dependencies\libmenuw6.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libmenuw6.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libmenuw6.dll" />
+    
+    <ContentWithTargetPath Include="splashkit_dependencies\libmikmod-2.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libmikmod-2.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libmikmod-2.dll" />
+    
+    <ContentWithTargetPath Include="splashkit_dependencies\libmodplug-1.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libmodplug-1.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libmodplug-1.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\libncursesw6.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libncursesw6.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libncursesw6.dll" />
+    
+    <ContentWithTargetPath Include="splashkit_dependencies\libogg-0.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libogg-0.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libogg-0.dll" />
+    
+    <ContentWithTargetPath Include="splashkit_dependencies\libpanelw6.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libpanelw6.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libpanelw6.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\libpng16-16.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libpng16-16.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libpng16-16.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\libSDL2_gfx-1-0-0.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libSDL2_gfx-1-0-0.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libSDL2_gfx-1-0-0.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\libSplashKit.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libSplashKit.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libSplashKit.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\libsqlite.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libsqlite.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libsqlite.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\libtiff-5.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libtiff-5.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libtiff-5.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\libvorbis-0.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libvorbis-0.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libvorbis-0.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\libvorbisfile-3.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libvorbisfile-3.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libvorbisfile-3.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\libwebp-4.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>libwebp-4.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\libwebp-4.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\SDL2.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>SDL2.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\SDL2.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\SDL2_image.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>SDL2_image.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\SDL2_image.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\SDL2_mixer.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>SDL2_mixer.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\SDL2_mixer.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\SDL2_net.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>SDL2_net.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\SDL2_net.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\SDL2_ttf.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>SDL2_ttf.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\SDL2_ttf.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\smpeg2.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>smpeg2.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\smpeg2.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\SplashKit.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>SplashKit.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\SplashKit.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\ssleay32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>ssleay32.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\ssleay32.dll" />
+
+    <ContentWithTargetPath Include="splashkit_dependencies\zlib1.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>zlib1.dll</TargetPath>
+    </ContentWithTargetPath>
+    <None Include="splashkit_dependencies\zlib1.dll" />
+  </ItemGroup>
+
 </Project>
